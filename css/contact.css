@@ -1,0 +1,10 @@
+/* CONTACT PAGE */
+
+.contact-card {
+    min-height: 180px;
+}
+
+.contact-icon {
+    color: var(--cyan);
+    font-size: 24px;
+}

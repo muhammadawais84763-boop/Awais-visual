@@ -1,0 +1,39 @@
+body.page-contact {
+    --page-accent: #a91f3d;
+    --page-accent-2: #35d07f;
+}
+
+body.page-contact .hero,
+body.page-contact .page-hero {
+    background:
+        radial-gradient(circle at 12% 18%, #a91f3d25, transparent 32%),
+        radial-gradient(circle at 86% 72%, #35d07f22, transparent 34%),
+        var(--bg, #070a0f);
+}
+
+body.page-contact .hero-title,
+body.page-contact .page-title {
+    background-image: linear-gradient(100deg, #ffffff, #a91f3d, #35d07f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+body.page-contact .section-title::after {
+    background: linear-gradient(90deg, #a91f3d, #35d07f);
+}
+
+body.page-contact .card,
+body.page-contact .service-card,
+body.page-contact .project-card,
+body.page-contact .pricing-card {
+    border-color: #a91f3d30;
+}
+
+body.page-contact .card:hover,
+body.page-contact .service-card:hover,
+body.page-contact .project-card:hover,
+body.page-contact .pricing-card:hover {
+    border-color: #35d07f !important;
+    box-shadow: 0 18px 45px #a91f3d25;
+}

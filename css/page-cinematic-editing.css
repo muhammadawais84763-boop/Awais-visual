@@ -1,0 +1,39 @@
+body.page-cinematic-editing {
+    --page-accent: #d9273f;
+    --page-accent-2: #55df86;
+}
+
+body.page-cinematic-editing .hero,
+body.page-cinematic-editing .page-hero {
+    background:
+        radial-gradient(circle at 12% 18%, #d9273f25, transparent 32%),
+        radial-gradient(circle at 86% 72%, #55df8622, transparent 34%),
+        var(--bg, #070a0f);
+}
+
+body.page-cinematic-editing .hero-title,
+body.page-cinematic-editing .page-title {
+    background-image: linear-gradient(100deg, #ffffff, #d9273f, #55df86);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+body.page-cinematic-editing .section-title::after {
+    background: linear-gradient(90deg, #d9273f, #55df86);
+}
+
+body.page-cinematic-editing .card,
+body.page-cinematic-editing .service-card,
+body.page-cinematic-editing .project-card,
+body.page-cinematic-editing .pricing-card {
+    border-color: #d9273f30;
+}
+
+body.page-cinematic-editing .card:hover,
+body.page-cinematic-editing .service-card:hover,
+body.page-cinematic-editing .project-card:hover,
+body.page-cinematic-editing .pricing-card:hover {
+    border-color: #55df86 !important;
+    box-shadow: 0 18px 45px #d9273f25;
+}

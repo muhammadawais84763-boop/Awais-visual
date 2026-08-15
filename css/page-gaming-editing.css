@@ -1,0 +1,39 @@
+body.page-gaming-editing {
+    --page-accent: #8eb63d;
+    --page-accent-2: #ff3d3d;
+}
+
+body.page-gaming-editing .hero,
+body.page-gaming-editing .page-hero {
+    background:
+        radial-gradient(circle at 12% 18%, #8eb63d25, transparent 32%),
+        radial-gradient(circle at 86% 72%, #ff3d3d22, transparent 34%),
+        var(--bg, #070a0f);
+}
+
+body.page-gaming-editing .hero-title,
+body.page-gaming-editing .page-title {
+    background-image: linear-gradient(100deg, #ffffff, #8eb63d, #ff3d3d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+body.page-gaming-editing .section-title::after {
+    background: linear-gradient(90deg, #8eb63d, #ff3d3d);
+}
+
+body.page-gaming-editing .card,
+body.page-gaming-editing .service-card,
+body.page-gaming-editing .project-card,
+body.page-gaming-editing .pricing-card {
+    border-color: #8eb63d30;
+}
+
+body.page-gaming-editing .card:hover,
+body.page-gaming-editing .service-card:hover,
+body.page-gaming-editing .project-card:hover,
+body.page-gaming-editing .pricing-card:hover {
+    border-color: #ff3d3d !important;
+    box-shadow: 0 18px 45px #8eb63d25;
+}
