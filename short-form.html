@@ -1,276 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-        name="description"
-        content="Awais Visuals professional video editing portfolio and services."
-    >
-    <title>Short Form Editing | Awais Visuals</title>
-
-    <link
-        rel="preconnect"
-        href="https://fonts.googleapis.com"
-    >
-    <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
-    >
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
-        rel="stylesheet"
-    >
-
-    <link
-        rel="stylesheet"
-        href="css/shared.css"
-    >
-    <link
-        rel="stylesheet"
-        href="css/short-form.css"
-    >
-
-    <link rel="stylesheet" href="css/interactions.css">
-    <link rel="stylesheet" href="css/page-short-form.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinematic Films · AwaisVisuals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
-
-<body class="page-short-form">
-
-<header class="site-header">
-    <div class="container navbar">
-        <a class="logo" href="index.html">
-            <img class="av-brand-logo" src="assets/images/awais-visuals-logo.png" alt="Awais Visuals">
-        </a>
-
-        <button class="menu-button" type="button" aria-label="Open menu">
-            ☰
-        </button>
-
-        <nav class="nav-links">
-                <a class="" href="index.html" class="source-btn">Home</a>
-                <a class="" href="portfolio.html" class="source-btn">Portfolio</a>
-                <a class="" href="services.html" class="source-btn">Services</a>
-                <a class="" href="pricing.html" class="source-btn">Pricing</a>
-                <a class="" href="about.html" class="source-btn">About</a>
-                <a class="" href="contact.html" class="source-btn">Contact</a>
-            <a class="nav-button" href="quote.html" class="source-btn">Get a Quote</a>
-        </nav>
-    </div>
-</header>
-
-
-
-<main>
-    <section class="detail-hero">
-        <div class="container detail-grid">
-            <div class="detail-content reveal">
-                <div class="kicker">Dedicated Service</div>
-
-                <h1>
-                    Short Form Editing
-                </h1>
-
-                <p class="lead">
-                    Scroll-stopping vertical content for Reels, Shorts, and TikTok.
-                </p>
-
-                <p>
-                    This service is designed as a complete editing solution,
-                    not just a collection of cuts. The goal is to take your raw
-                    material and turn it into a polished final video with a
-                    deliberate structure, consistent visual language, clean
-                    sound, and professional delivery.
-                </p>
-
-                <div class="button-row">
-                    <a class="button button-primary" href="quote.html">
-                        Request This Service
-                    </a>
-
-                    <a class="button button-secondary" href="portfolio.html">
-                        See Related Work
-                    </a>
-                </div>
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/awais-visuals-logo.png" alt="AwaisVisuals" class="logo-img" />
+            </a>
+            <div class="brand span">
+                <span>Awais Visuals</span>
             </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="nav-cta">Start a Project</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-            <div class="hero-visual reveal">
-                <div class="media-card">
-                    <img
-                        src="assets/images/shorts.svg"
-                        alt="Short Form Editing"
-                    >
-                    <div class="media-overlay"></div>
-                    <div class="media-caption">
-                        <small>AWAİS VISUALS</small>
-                        <strong>Short Form Editing</strong>
-                    </div>
+    <!-- ===== SERVICE HERO ===== -->
+    <section class="service-hero">
+        <div class="container">
+            <span class="badge"><i class="fas fa-circle"></i> Service</span>
+            <div class="service-hero-icon-wrapper">
+                <img src="assets/images/short.svg.png" alt="Short Form Videos" class="service-hero-icon" />
+            </div>
+            <h1>Short Form <span class="gold">Videos</span></h1>
+            <p class="subtitle">Engaging and shareable video content for social media platforms.</p>
+            <a href="contact.html" class="btn-primary"><i class="fas fa-paper-plane"></i> Start Your Project</a>
+        </div>
+    </section>
+
+    <!-- ===== SERVICE DETAILS ===== -->
+    <section class="service-details">
+        <div class="container">
+            <div class="service-details-grid">
+                <div class="content">
+                    <h2>Bring Your Vision to Life</h2>
+                    <p>I specialize in creating cinematic masterpieces that captivate audiences. From short films to full-length features, every project receives the same dedication to quality and storytelling.</p>
+                    <p>With advanced color grading, professional sound design, and seamless visual effects, I transform raw footage into emotionally resonant stories that leave a lasting impression.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Professional color grading</li>
+                        <li><i class="fas fa-check"></i> Sound design & mixing</li>
+                        <li><i class="fas fa-check"></i> Visual effects integration</li>
+                        <li><i class="fas fa-check"></i> Storytelling consultation</li>
+                    </ul>
+                </div>
+                <div class="service-image">
+                    <img src="assets/images/short.svg.png" alt="Short Form Videos" />
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section service-feature">
+    <!-- ===== PROCESS ===== -->
+    <section class="service-process">
         <div class="container">
-            <div class="section-header reveal">
-                <div>
-                    <div class="kicker">What’s Included
-        <a
-            href="contact.html"
-            class="learn-more border-draw"
-        >
-            Learn More
-        </a>
-        </div>
-                    <h2>Everything needed for a finished edit.</h2>
-                </div>
-                <p>
-                    The exact treatment changes according to the footage and
-                    creative direction, but these are the core production areas.
-                </p>
-            </div>
-
-            <div class="bullet-grid">
-                <div class="bullet reveal">✓ Strong first-second hook</div><div class="bullet reveal">✓ Dynamic captions</div><div class="bullet reveal">✓ Punchy cuts</div><div class="bullet reveal">✓ Pattern interrupts</div><div class="bullet reveal">✓ Vertical framing</div><div class="bullet reveal">✓ Platform-ready exports</div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <div class="section-header reveal">
-                <div>
-                    <div class="kicker">Workflow</div>
-                    <h2>A clear process from footage to final export.</h2>
-                </div>
-            </div>
-
+            <h2 style="text-align: center;">My Process</h2>
             <div class="process-grid">
-                <article class="process-card reveal">
-                    <div class="process-number">STEP 01</div>
-                    <h3>Brief & Footage</h3>
-                    <p>
-                        You provide the footage, references, brand assets,
-                        objectives, and any important creative instructions.
-                    </p>
-                </article>
-
-                <article class="process-card reveal">
-                    <div class="process-number">STEP 02</div>
-                    <h3>Assembly & Story</h3>
-                    <p>
-                        The strongest moments are selected and arranged into
-                        a clear structure with purposeful pacing.
-                    </p>
-                </article>
-
-                <article class="process-card reveal">
-                    <div class="process-number">STEP 03</div>
-                    <h3>Polish & Delivery</h3>
-                    <p>
-                        Graphics, sound, color, effects, subtitles, quality
-                        checks, and final export are completed before delivery.
-                    </p>
-                </article>
+                <div class="process-step"><div class="step-number">01</div><h4>Discovery</h4><p>Understanding your vision and goals</p></div>
+                <div class="process-step"><div class="step-number">02</div><h4>Storyboarding</h4><p>Planning the visual narrative</p></div>
+                <div class="process-step"><div class="step-number">03</div><h4>Editing</h4><p>Crafting the story frame by frame</p></div>
+                <div class="process-step"><div class="step-number">04</div><h4>Delivery</h4><p>Polished, cinematic masterpiece</p></div>
             </div>
         </div>
     </section>
 
-    <section class="section">
+    <!-- ===== CTA ===== -->
+    <section class="service-cta">
         <div class="container">
-            <div class="quote-box reveal">
-                <div class="kicker">Next Step</div>
-                <h2>Tell me what you want to create.</h2>
-                <p>
-                    Use the project form to describe your footage, target
-                    platform, desired length, deadline, references, and goals.
-                </p>
-
-                <div class="button-row">
-                    <a class="button button-primary" href="quote.html">
-                        Get a Quote
-                    </a>
-                </div>
+            <div class="cta-box">
+                <h2>Ready to Create Your <span class="gold">Cinematic Masterpiece</span>?</h2>
+                <p>Let's bring your story to the screen with professional cinematic editing.</p>
+                <a href="contact.html" class="btn-primary"><i class="fas fa-paper-plane"></i> Get a Quote</a>
             </div>
         </div>
     </section>
-</main>
 
-
-
-<footer class="site-footer">
-    <div class="container">
-        <div class="footer-grid">
-            <div>
-                <a class="logo" href="index.html">
-                    <img class="av-brand-logo" src="assets/images/awais-visuals-logo.png" alt="Awais Visuals">
-                </a>
-                <p>
-                    A professional video editing studio focused on cinematic
-                    storytelling, social content, brand films, and AI-powered
-                    production workflows.
-                </p>
-            </div>
-
-            <div>
-                <strong>Explore</strong>
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo-wrapper">
+                        <img src="assets/images/awais-visuals-logo.png" alt="AwaisVisuals" class="footer-logo" />
+                    </div>
+                    <div class="logo-text"><i class="fas fa-film"></i> AwaisVisuals</div>
+                    <p>Professional video editor</p>
+                </div>
                 <div class="footer-links">
-                    <a href="portfolio.html">Portfolio</a>
+                    <a href="index.html">Home</a>
                     <a href="services.html">Services</a>
-                    <a href="pricing.html">Pricing</a>
+                    <a href="portfolio.html">Portfolio</a>
                     <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
                 </div>
             </div>
-
-            <div>
-                <strong>Contact</strong>
-                <div class="footer-links">
-                    <a href="mailto:hello@awaisvisuals.com">
-                        hello@awaisvisuals.com
-                    </a>
-                    <a href="https://wa.me/923000000000">
-                        WhatsApp
-                    </a>
-                    <a href="quote.html">Request a project quote</a>
-                </div>
-            </div>
+            <div class="footer-bottom">&copy; 2026 AwaisVisuals. All rights reserved.</div>
         </div>
+    </footer>
 
-        <div class="copyright">
-            © 2026 Awais Visuals. Replace the demo contact details before publishing.
-        </div>
-    </div>
-</footer>
-
-
-<script
-    src="js/main.js"
-></script>
-
-    <script src="js/hover-effects.js"></script>
-
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const items = document.querySelectorAll(
-    "section, .section, .service-card, .project-card, .portfolio-card, .card"
-  );
-  if (!("IntersectionObserver" in window)) return;
-  items.forEach((el, i) => {
-    el.classList.add("av-motion-ready");
-    el.style.setProperty("--av-delay", Math.min(i * 35, 280) + "ms");
-  });
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("av-motion-visible");
-        observer.unobserve(entry.target);
-      }
-    });
-  }, {threshold: 0.08});
-  items.forEach(el => observer.observe(el));
-});
-</script>
-
+    <script src="script.js"></script>
 </body>
 </html>
